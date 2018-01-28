@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>A Year in Pixels</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+  <div class="modal fade" id="colorPicker" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">How Was Your Day?</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <button type="button" class="btn btn-primary" id="greeny" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-primary" id="yellowy" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-primary" id="orangey" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-primary" id="redy" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-primary" id="purpley" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-primary" id="bluey" data-dismiss="modal"></button>
+          <button type="button" class="btn btn-secondary" id="oopsy" data-dismiss="modal">Undo</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <header>
+      <h1>A Year in <span id="pixel">Pixels</span></h1>
+    </header>
+
+    <div class="sidebar">
+      <ul>
+          <li><span id="green">&#9632;</span> = 😁 </li>
+          <li><span id="yellow">&#9632;</span> = 😀 </li>
+          <li><span id="orange">&#9632;</span> = 🙂	</li>
+          <li><span id="red">&#9632;</span> = 😐 </li>
+          <li><span id="purple">&#9632;</span> = 🙁 </li>
+          <li><span id="blue">&#9632;</span> = 😭 </li>
+      </ul>
+    </div>
+
+  <div id="container">
+  </div>
+
+</body>
+
+</html>

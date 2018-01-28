@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+*{
+  box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
+  margin-left:2%;
+}
+
+li{
+    display:inline-block;
+    font-size: 30px;
+    margin-left:7%;
+}
+
+h1{
+  font-family: 'Sacramento', cursive !important;
+  text-align: center;
+  font-size: 100px !important;
+  margin-bottom: 45px !important;
+}
+
+
+#pixel{
+  font-family: 'VT323', monospace;
+}
+
+#blue{
+  color: blue;
+}
+#green{
+  color: green;
+}
+#purple{
+  color: purple;
+}
+#yellow{
+  color: yellow;
+}
+#orange{
+  color: orange;
+}
+#red{
+  color: red;
+}
+
+#container {
+	position: relative;
+	top: 30px;
+	margin:  auto;
+	height:402.58px;
+	width:1080px;
+	padding: 0;
+	border: none;
+  font-size: 0px;
+}
+
+.grid {
+	margin:0px;
+	padding:0px;
+	border: none;
+	outline:1px solid #000;
+	display:inline-block;
+}
+
+.months {
+	margin:0px;
+	padding:0px;
+	border: none;
+	outline:0px solid #000;
+	display:inline-block;
+  font-size: 20px;
+  vertical-align: top;
+}
+
+.days{
+  outline: 0px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn-primary{
+  border-style: none !important;
+  width:35px;
+  height:35px;
+}
+
+#bluey{
+  background-color: blue;
+}
+#greeny{
+  background-color: green;
+}
+#redy{
+  background-color: red;
+}
+#yellowy{
+  background-color: yellow;
+}
+#orangey{
+  background-color: orange;
+}
+#purpley{
+  background-color: purple;
+}
+#oopsy{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+#colorPicker{
+  width:27%;
+  margin-left: 36.5%;
+}
